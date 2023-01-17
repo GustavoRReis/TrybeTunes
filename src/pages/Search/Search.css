@@ -1,0 +1,112 @@
+.search {
+  background-color:#1a1b1c;
+  display: flex;
+  /* max-height: 100vh; */
+}
+
+.bodySearch{
+  width: 100%;
+}
+
+.menuForm {
+  background-color: #1a1b1c;
+  display: flex;
+  flex-direction: column;
+}
+
+.formulario{
+  width: 40%;
+  margin-left: 168px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 50px;
+  align-self: center;
+}
+
+.inputPesquisar{
+  width: 35%;
+  margin-right: 20px;
+  width: 400px;
+  height: 40px;
+  border-radius: 32px;
+  font-family: epilogue;
+  font-size: 20px;
+}
+
+.buttonForm {
+  width: 130px;
+  height: 40px;
+  border-radius: 23px;
+  background-color: whitesmoke;
+  color:#1a1b1c;
+  font-size: 16px;
+  font-family: epilogue;
+  font-weight: 700;
+}
+
+.resultadosSearch {
+  background-color: #1f2631;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.resultadosSearch h2 {
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+.resultadosSearch div {
+  width: 100%;
+}
+
+.bands{
+  background-color: #1f2631;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  
+}
+
+.cardsBands {
+  /* border-radius: 25px; */
+  box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 10%);
+  /* border: 1px solid hsla(0,0%,50.2%,.397); */
+  
+}
+
+.formatCards{
+  background-color: #2b333ffd;
+  height: 220px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.formatCards div{
+  margin-left: 5px;
+  width: 190px;
+  word-wrap: break-word;
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+
+.formatCards img {
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  
+}
+
+.listas {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+

@@ -1,0 +1,98 @@
+
+
+.bodyHome {
+  display: flex;
+  background-color: #1a1b1c;
+}
+
+.bodyHome Header {
+  height: 100vh;
+}
+
+.headerHome {
+  background-color: #1f2631;
+  width: 100%;
+  text-align: center;
+}
+
+.cabecalhoHome {
+  background-color: #1a1b1c;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+}
+
+.boxHome {
+ background-color: #1f2631;
+  display: flex;
+  flex-wrap: wrap;
+  /* height: 100%; */
+}
+
+.cardsMain {
+/* background-color: #2b333ffd; */
+
+}
+
+.cardsHome {
+  /* width: 320px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center; */
+  box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 10%);
+}
+
+.formatCardsHome{
+  margin-left: 50px;
+  background-color: #2b333ffd;
+  height: 400px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.formatCardsHome div{
+  width: 320px;
+  word-wrap: break-word;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.formatCardsHome h2{ 
+  width: 320px;
+  word-wrap: break-word;
+  color: whitesmoke;
+  font-size: 32px;
+  text-align: center;
+}
+
+
+
+.formatCardsHome img {
+  border-radius: 12px;
+  width: 150px;
+  height: 150px;
+  
+}
+
+
+/* .cardsHome img {
+  border-radius: 12px;
+  height: 250px;
+}
+
+.cardsHome div {
+  margin-left: 5px;
+  width: 190px;
+  word-wrap: break-word;
+  color: whitesmoke;
+  text-align: center;
+  font-size: 24px;
+} */
+
+

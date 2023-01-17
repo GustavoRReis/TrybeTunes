@@ -1,0 +1,27 @@
+/* .ulTest {
+  display: flex;
+  flex-direction: column;
+  flex: wrap;
+  background-color: yellow;
+} */
+
+.ulTest2 {
+  background-color: #2b333ffd;
+  display: flex;
+  width: 500px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  border-radius: 12px;
+}
+
+.ulTest2 audio {
+  margin-bottom: 6px;
+}
+
+.labelCard {
+  margin-bottom: 3px;
+  color: white;
+}

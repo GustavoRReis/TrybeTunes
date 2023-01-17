@@ -1,0 +1,27 @@
+.bodyAlbum {
+  background-color: red;
+  display: flex;
+}
+
+.listaMusic {
+  background-color: yellow;
+  display: flex;
+  flex-direction: column;
+  
+  width: 100%;
+}
+
+.testdiv {
+  background-color: #1a1b1c;
+  text-align: center;
+  color: white;
+  font-size: 32px;
+}
+
+.testdiv2 {
+  background-color: #1f2631;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+

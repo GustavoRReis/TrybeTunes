@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Login {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.Login video {
+  position: absolute;
+  bottom: 0;
+  z-index: -100;
+}
+
+.caixaLogin {
+  /* background-color:white;
+  width: 275px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 0.83; */
+}
+
+
+.inputsLogin{
+  display: flex;
+  /* border: 1px solid black; */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 80px;
+}
+
+.boxForm input {
+  margin-bottom: 10px;
+  width: 200px;
+  height: 25px;
+  text-align: center;
+  background-color: rgba(249,249,246,0);
+  outline: none;
+  border: none;
+  border-bottom: 2.5px solid rgba(0,0,0,.219);
+  margin-top: -18px;
+  color: white;
+}
+
+.inputsLogin button {
+  width: 200px;
+  height: 25px;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(10, 110, 77);
+}
+
+.boxInput{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
