@@ -1,6 +1,6 @@
 # TrybeTunes
 
-Esse projeto é uma aplicação construida com React, utilizando Redux, capaz de reproduzir músicas das mais variadas bandas e artistas. Ele realiza a consulta a API do itunes.
+Esse projeto é uma aplicação construida com React, capaz de reproduzir músicas das mais variadas bandas e artistas. Ele realiza a consulta a API do itunes.
 
 O projeto permite: Fazer login, pesquisar bandas, generos ou artistas, listar os albuns e reproduzir as prévias das musicas, favoritar e desfavoritar, ver a lista de músicas favoritas, ver o perfil da pessoa e edita-lo.
 
