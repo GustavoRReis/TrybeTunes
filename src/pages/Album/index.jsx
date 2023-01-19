@@ -37,7 +37,7 @@ export default class Album extends Component {
     /* console.log(album); */
     return (
       <div className="bodyAlbum" data-testid="page-album">
-        {loading && <Loading />}
+        {/* {loading && <Loading />} */}
         <Header />
         <div className="listaMusic">
           <div className="testdiv">
